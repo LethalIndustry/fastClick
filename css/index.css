@@ -1,0 +1,97 @@
+body {
+    font-family:Helvetica, Arial, sans-serif;
+    font-size:12px;
+    width:100%;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    text-transform:uppercase;
+}
+
+a, input, button {
+    -ms-touch-action: none !important;
+}
+
+h1{
+	font-size:20px
+}
+
+#cabecera{
+	height:45px;
+	line-height:45px;
+	width:100%;
+	top:0;
+	text-align:center;
+	background: rgba(60,152,195,1);
+	background: -moz-linear-gradient(top, rgba(60,152,195,1) 0%, rgba(48,123,158,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(60,152,195,1)), color-stop(100%, rgba(48,123,158,1)));
+	background: -webkit-linear-gradient(top, rgba(60,152,195,1) 0%, rgba(48,123,158,1) 100%);
+	background: -o-linear-gradient(top, rgba(60,152,195,1) 0%, rgba(48,123,158,1) 100%);
+	background: -ms-linear-gradient(top, rgba(60,152,195,1) 0%, rgba(48,123,158,1) 100%);
+	background: linear-gradient(to bottom, rgba(60,152,195,1) 0%, rgba(48,123,158,1) 100%);
+}
+
+#logo{
+	height:30px;
+	vertical-align:middle
+}
+	
+#pie{
+	bottom:0;
+	position:absolute;
+	height:48px;
+	width:100%;
+	background: rgba(254,254,254,1);
+	background: -moz-linear-gradient(top, rgba(60,60,60,1) 0%, rgba(0,0,0,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(60,60,60,1)), color-stop(100%, rgba(0,0,0,1)));
+	background: -webkit-linear-gradient(top, rgba(60,60,60,1) 0%, rgba(0,0,0,1) 100%);
+	background: -o-linear-gradient(top, rgba(60,60,60,1) 0%, rgba(0,0,0,1) 100%);
+	background: -ms-linear-gradient(top, rgba(60,60,60,1) 0%, rgba(0,0,0,1) 100%);
+	background: linear-gradient(to bottom, rgba(60,60,60,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+#pie ul{
+	margin-top:0px;
+	padding:0px;
+	list-style:none;
+	display:block;
+	font-size:15px
+	
+}
+
+#pie ul li{
+	width:25%;
+	float:left;
+	line-height:48px;
+	text-align:center;
+	vertical-align:middle;
+	color:#eee
+}
+
+#pie ul li:active{
+	color:#fff
+}
+
+#pie ul li a{
+	color:#eee;
+	text-decoration: none;
+}
+
+#pie ul li a:active{
+	color:#fff
+}
+	
+#cuerpo{
+	top: 45px;
+	bottom:48px;
+	position:absolute;
+	width:100%
+}
+
+.interior{
+	margin:10px;
+}
+
+.interior img{
+	max-width:100%
+}
